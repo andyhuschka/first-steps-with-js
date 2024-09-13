@@ -5,14 +5,20 @@ Das ist ein Multi Line Comment
 Wie man sieht
 */
 
-// Addition
-console.log(1 + 1);
+// Equal
+console.log(1 === 1); // true
 
-// Subtraction
-console.log(1 - 1);
+// Not Equal
+console.log(1 !== 1); // false
 
-// Multiplication
-console.log(3 * 3);
+// Greater than
+console.log(1 > 1); // false
 
-// Division
-console.log(20 / 5);
+// Greater than or equal
+console.log(1 >= 1); // true
+
+//Less than
+console.log(1 < 1); // false
+
+// Less than or equal
+console.log(1 <= 1); // true
