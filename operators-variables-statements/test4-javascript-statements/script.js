@@ -55,6 +55,24 @@ console.log(oddEven(-1));
 console.log(oddEven(10));
 // result should be even
 
+// Livesession //
+
+function oddOrEven(number) {
+  // if (Math.floor(number / 2) === number / 2)
+  if (number % 2 === 0) {
+    return "even";
+  } else {
+    return "odd";
+  }
+}
+
+console.log(oddOrEven(10));
+// even
+console.log(oddOrEven(11));
+// odd
+
+// Livesession //
+
 // Question 3
 
 // Implement a oldYoung function.
