@@ -131,3 +131,27 @@ const squaredArr1 = arr7.map(function (n) {
 });
 
 console.log(squaredArr1);
+
+//--- Test 12 ---//
+let sum = 0;
+
+function addToSum(num) {
+  sum += num;
+
+  return sum;
+}
+
+console.log(addToSum(5));
+console.log(addToSum(5));
+
+//--- Test 12.5 ---//
+
+function addToSum1(num1) {
+  let sum1 = 0;
+  sum1 += num1;
+
+  return sum1;
+}
+
+console.log(addToSum1(5));
+console.log(addToSum1(5));
