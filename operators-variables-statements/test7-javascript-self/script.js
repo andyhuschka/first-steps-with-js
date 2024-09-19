@@ -26,3 +26,15 @@ const sayHello = function () {
 sayHello();
 
 //--- Test 3 ---//
+
+function sayMorning() {
+  console.log("morning");
+}
+
+function executeFn(Fn) {
+  Fn();
+}
+
+executeFn(sayMorning);
+
+//--- Test 4 ---//
