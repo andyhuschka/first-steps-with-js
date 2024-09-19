@@ -77,3 +77,27 @@ function sayGood(name) {
 }
 
 arr3.forEach(sayGood);
+
+//--- Test 8 ---//
+
+const arr4 = ["Peter", "Paul", "Mary"];
+
+function filter(name) {
+  return name.length < 5;
+}
+
+const filteredArr = arr4.filter(filter);
+console.log(filteredArr);
+
+//--- Test 9 ---//
+
+const arr5 = [2, 4, 5, 7];
+
+function square(n) {
+  return n * n;
+}
+
+const squaredArr = arr5.map(square);
+console.log(squaredArr);
+
+//-- Test 10 ---//
