@@ -100,4 +100,34 @@ function square(n) {
 const squaredArr = arr5.map(square);
 console.log(squaredArr);
 
-//-- Test 10 ---//
+//--- Test 10 ---//
+// ohne parameter
+
+const arr6 = [-1, 100, 4, 2];
+
+const sortedArr = arr6.sort();
+console.log(sortedArr); // -1, 100, 2, 4 <== kein Sinn
+
+//--- Test 10.5 ---//
+
+function sortNumbers(a, b) {
+  console.log("comparing " + a + " and " + b);
+  return a - b;
+}
+
+const sortedArr1 = arr6.sort(sortNumbers);
+console.log(sortedArr);
+
+//--- Test 11 ---//
+
+const arr7 = [2, 4, 5, 7];
+
+// function square(n) {
+// return n * n;
+// }
+
+const squaredArr1 = arr7.map(function (n) {
+  return n * n;
+});
+
+console.log(squaredArr1);
