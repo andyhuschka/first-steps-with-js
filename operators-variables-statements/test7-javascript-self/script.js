@@ -133,6 +133,7 @@ const squaredArr1 = arr7.map(function (n) {
 console.log(squaredArr1);
 
 //--- Test 12 ---//
+
 let sum = 0;
 
 function addToSum(num) {
@@ -155,3 +156,42 @@ function addToSum1(num1) {
 
 console.log(addToSum1(5));
 console.log(addToSum1(5));
+
+//--- Test 13 ---//
+
+const addToSum2 = (sum2, num2) => {
+  sum2 += num2;
+
+  return sum2;
+};
+
+const greetUser = (username) => "Hallo " + username;
+
+console.log(addToSum2(10, 5));
+console.log(addToSum2(10, 5));
+console.log(greetUser("John"));
+
+const jane = {
+  firstName: "jane",
+  age: 30,
+  id: 1,
+  lastName: "Doe",
+  greeting() {
+    return `Hallo ${this.firstName}`;
+  },
+};
+console.log(jane.greeting());
+
+//--- Test 14 ---//
+
+const people = ["John", "Jane"];
+people.forEach(function () {
+  console.log("Ich wurde ausgeführt");
+});
+
+//--- Test 14.5 ---//
+
+const people1 = ["John", "Jane"];
+people1.forEach(function (element, index, arr8) {
+  console.log(element, index, arr8);
+});
