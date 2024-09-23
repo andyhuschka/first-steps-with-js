@@ -209,6 +209,7 @@ console.log(
 );
 
 //--- Test 17 ---//
+// change let variable
 
 let currentStatus = "Watching Netflix";
 currentStatus = "Relaxing at the beach";
