@@ -214,3 +214,31 @@ console.log(
 let currentStatus = "Watching Netflix";
 currentStatus = "Relaxing at the beach";
 console.log(currentStatus);
+
+//-- Test 17.5 ---//
+// add console change
+
+let currentStatus1 = "Watching Netflix";
+currentStatus1 = "Relaxing at the Beach";
+
+console.log(currentStatus1);
+
+currentStatus1 = "Reading";
+
+console.log(currentStatus1);
+
+//--- Test 18 ---//
+
+let defaultStatus = "Hi there!";
+let currentStatus2 = "Playing football";
+
+currentStatus2 = defaultStatus;
+console.log(currentStatus2);
+
+//--- Test 19 ---//
+
+let currentStatus3 = "Playing football";
+console.log(currentStatus3);
+
+currentStatus3 = "Walking the dog";
+console.log(currentStatus3);
