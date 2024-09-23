@@ -195,3 +195,21 @@ const people1 = ["John", "Jane"];
 people1.forEach(function (element, index, arr8) {
   console.log(element, index, arr8);
 });
+
+//--- Tet 15 ---///
+
+console.log(new Date());
+
+//--- Test 16 ---//
+
+console.log(
+  new Intl.NumberFormat("en-GB", {
+    minimumFractionDigits: 1,
+  })
+);
+
+//--- Test 17 ---//
+
+let currentStatus = "Watching Netflix";
+currentStatus = "Relaxing at the beach";
+console.log(currentStatus);
